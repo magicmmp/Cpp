@@ -11,7 +11,7 @@ public:
 		str=new char[b];
 		strcpy(str,cstr);
 	}
-	CA(const CA& C)
+	CA(const CA& C)  //deep copy constructor
 	{
 		a=C.a;
 		str=new char[a];
